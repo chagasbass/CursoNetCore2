@@ -1,0 +1,12 @@
+Instalação dos componentes
+
+Ir em https://www.microsoft.com/net/download/thank-you/dotnet-sdk-2.1.2-windows-x64-installer 
+e baixar o instalador.
+
+verificar a versao  dotnet --version
+
+extensions de vs code 
+
+Beautify,C#,nuget package manager,
+
+-------------------------------------------------------------------------------------------------

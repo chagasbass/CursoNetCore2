@@ -1,0 +1,10 @@
+ORGANIZAÇÃO DA SOLUÇÃO
+
+Criação de pastas na solução 
+
+NetCore.Dominio (projeto class library)
+NetCore.Compartilhados (projeto class library)
+NetCore.Infra (projeto class library)
+NetCore.Testes (projeto de testes)
+NetCore.Api (Projeto web)
+------------------------------------------------------------------------------------------------------------------------
