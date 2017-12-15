@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Flunt.Notifications;
+using System;
 
 namespace NetCore.Compartilhados.Entidades
 {
     /// <summary>
     /// Entidade base
     /// </summary>
-    public abstract class Entidade
+    public abstract class Entidade:Notifiable
     {
         public Guid Id { get; private set; }
 
@@ -13,5 +14,8 @@ namespace NetCore.Compartilhados.Entidades
         {
             Id = Guid.NewGuid();
         }
+
+        public abstract void Validar();
+        
     }
 }
